@@ -17,7 +17,7 @@ const Day1CssChallenges = () => {
           </div>
         </div>
         <div className={styles.textContainer}>
-          <div className={styles.header}>DAYS</div>
+          <h1>DAYS</h1>
           <p>CSS CHALLENGES</p>
         </div>
       </div>

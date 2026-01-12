@@ -72,10 +72,15 @@
 .textContainer {
   text-align: center;
 }
-.header {
+/* .header {
   font-size: 120px;
   height: fit-content;
   color: white;
+  line-height: 1;
+  margin: 0;
+} */
+ h1 {
+  font-size: 100px;
   line-height: 1;
   margin: 0;
 }
