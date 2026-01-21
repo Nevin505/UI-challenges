@@ -1,6 +1,7 @@
 .container {
   height: 100vh;
   background-color: #fff;
+  color: black;
 }
 .hero {
   background-color: #23424a;
@@ -9,13 +10,12 @@
 }
 .innerDiv {
   width: 90%;
-  /* max-width: 1000px; */
+  max-width: 1400px;
   margin: 0 auto;
 }
-.innerDiv__text{
+.innerDiv__text {
   width: 60%;
   max-width: 700px;
-
 }
 .innerDiv__heading {
   color: white;
@@ -38,4 +38,40 @@
   background-color: #38cfd9;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+.flex__boxContainer {
+  display: flex;
+  
+  gap: 2rem;
+  color: black;
+  padding-block: 4rem;
+}
+
+.flex__box {
+  color: black;
+}
+.flex__boxHeading {
+  color: #87629a;
+  font-family: "Roboto", sans-serif;
+  font-size: 700;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.footer_flexBoxes {
+  display: flex;
+  gap: 4rem;
+}
+
+.footeraContainer {
+  background-color: #136c72;
+  padding: 100px;
+  text-align: center;
+}
+.footer__heading {
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.footer_box {
+  color: #fff;
 }
