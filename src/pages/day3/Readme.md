@@ -18,4 +18,4 @@ A hero banner section with dark teal background containing:
 - Ensure responsive layout that works on all screen sizes
 
 
-["/public/Screenshot 2026-01-21 at 10.44.35 AM.png"]
+![Desigin File]("/public/Screenshot 2026-01-21 at 10.44.35 AM.png")
