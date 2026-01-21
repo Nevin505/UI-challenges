@@ -1,0 +1,41 @@
+.container {
+  height: 100vh;
+  background-color: #fff;
+}
+.hero {
+  background-color: #23424a;
+  padding: 7rem 0;
+  /* padding-inline: 5rem; */
+}
+.innerDiv {
+  width: 90%;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+}
+.innerDiv__text{
+  width: 60%;
+  max-width: 700px;
+
+}
+.innerDiv__heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 700;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 2rem;
+}
+.innerDiv__paragraph {
+  font-size: 21px;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+}
+.cta__btnStyles {
+  padding: 1rem 2rem;
+  border-radius: 2em;
+  font-size: 21px;
+  font-weight: bold;
+  background-color: #38cfd9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
