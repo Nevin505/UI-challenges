@@ -16,5 +16,5 @@ A hero banner section with dark teal background containing:
 - Button text should be uppercase
 - Ensure responsive layout that works on all screen sizes
 
-![Design File](/day3.png)
+![Design File](../../../public/day3.png)
 
