@@ -4,23 +4,78 @@ const ThirdDay = () => {
   return (
     <div className={externalStyles.container}>
       <div className={externalStyles.hero}>
-        <div className={externalStyles.innerDiv}>
-          <div className={externalStyles.innerDiv__text}>
-            <h1 className={externalStyles.innerDiv__heading}>
-              Responsive layouts don’t have to be a struggle
-            </h1>
-            <p className={externalStyles.innerDiv__paragraph}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam.
-            </p>
+        <div className={externalStyles.heroContainer}>
+          <div className={externalStyles.heroContent}>
+            {" "}
+            <div className={externalStyles.hero__text}>
+              <h1 className={externalStyles.hero__heading}>
+                Responsive layouts don’t have to be a struggle
+              </h1>
+              <p className={externalStyles.hero__paragraph}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+              <button className={externalStyles.hero__cta}>
+                I want to learn
+              </button>
+            </div>
+            <img
+              src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+              alt="Beautiful Wooden Bridge"
+            />
           </div>
-          <button className={externalStyles.cta__btnStyles}>
-            I want to learn
-          </button>
         </div>
       </div>
-      <div className={externalStyles.innerDiv}>
+      <div className={externalStyles.websiteInfo}>
+        <div className={externalStyles.websiteInfoLeftSection}>
+          <h2 className={externalStyles.websiteInfoHeader}>
+            Quality designs made custom, on demand, just for you
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+            itaque magnam unde nostrum minus delectus ea suscipit quis debitis
+            ratione dolorem incidunt odio nulla obcaecati, quisquam recusandae
+            fugit et rem.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            natus numquam ullam labore possimus! Fuga maiores dolor dignissimos
+            odio reprehenderit laudantium, minus, exercitationem rem vitae
+            corrupti, ex ad est harum?
+          </p>
+        </div>
+        <div className={externalStyles.websiteInfoRightSection}>
+          <div className={externalStyles.websiteInfoRightChildSection}>
+            <h2>Cheap</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              placeat, modi explicabo quasi molestias delectus, itaque non
+              ducimus inventore corporis eos? Et rerum, repellendus
+              reprehenderit placeat debitis asperiores libero facilis.
+            </p>
+          </div>
+          <div className={externalStyles.websiteInfoRightChildSection}>
+            <h2>Cheap</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              placeat, modi explicabo quasi molestias delectus, itaque non
+              ducimus inventore corporis eos? Et rerum, repellendus
+              reprehenderit placeat debitis asperiores libero facilis.
+            </p>
+          </div>
+          <div className={externalStyles.websiteInfoRightChildSection}>
+            <h2>Cheap</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam
+              placeat, modi explicabo quasi molestias delectus, itaque non
+              ducimus inventore corporis eos? Et rerum, repellendus
+              reprehenderit placeat debitis asperiores libero facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className={externalStyles.heroContainer}>
         <div className={externalStyles.flex__boxContainer}>
           <div className={externalStyles.flex__box}>
             <h2 className={externalStyles.flex__boxHeading}>Cheap</h2>

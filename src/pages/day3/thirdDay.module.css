@@ -6,14 +6,24 @@
 .hero {
   background-color: #23424a;
   padding: 7rem 0;
-  /* padding-inline: 5rem; */
 }
-.innerDiv {
+.heroContainer {
   width: 90%;
   max-width: 1400px;
   margin: 0 auto;
 }
-.innerDiv__text {
+
+.heroContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+img {
+  width: 30%;
+  max-width: 100%;
+  align-self: flex-start;
+}
+.hero__text {
   width: 60%;
   max-width: 700px;
 }
@@ -39,9 +49,32 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+.hero__heading {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 700;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+.hero__paragraph {
+  font-size: 21px;
+  margin-bottom: 4rem;
+  line-height: 1.5;
+}
+.hero__cta {
+  padding: 1rem 2rem;
+  border-radius: 2em;
+  font-size: 21px;
+  font-weight: bold;
+  background-color: #38cfd9;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 .flex__boxContainer {
   display: flex;
-  
+
   gap: 2rem;
   color: black;
   padding-block: 4rem;
@@ -57,6 +90,45 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.websiteInfo {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding-block: 4rem;
+}
+.websiteInfoLeftSection {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 60%;
+
+}
+.websiteInfoHeader {
+  color: #136c72;
+  font-size: 31px;
+  width: 80%;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.websiteInfoRightSection {
+  width: 30%;
+  max-width: 400px;
+  background-color: #136c72;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.websiteInfoRightChildSection {
+  text-align: center;
+  color: white;
 }
 .footer_flexBoxes {
   display: flex;
