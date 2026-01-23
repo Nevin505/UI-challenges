@@ -3,6 +3,28 @@
   background-color: #fff;
   color: black;
 }
+.navBar {
+  background-color: #136c72;
+  padding: 1rem;
+}
+.navlinks__container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  gap: 2rem;
+  width: 95%;
+  margin-inline-start: auto;
+  text-transform: uppercase;
+  
+}
+.nav_link:last-of-type {
+  background-color: white;
+  color: #136c72;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  margin-left: auto;
+}
 .hero {
   background-color: #23424a;
   padding: 7rem 0;
@@ -16,6 +38,7 @@
 .heroContent {
   display: flex;
   justify-content: space-between;
+
   gap: 1rem;
 }
 img {
@@ -106,7 +129,6 @@ img {
   flex-direction: column;
   gap: 2rem;
   max-width: 60%;
-
 }
 .websiteInfoHeader {
   color: #136c72;

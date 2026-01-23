@@ -1,0 +1,55 @@
+
+.container {
+  background: white;
+  height: 100vh;
+}
+.gridContainer {
+  display: grid;
+
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+.box {
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+.box1 {
+  background-color: #7444c7;
+}
+.box2 {
+  background-color: #585967;
+}
+.box3 {
+  background-color: rgb(234, 233, 231);
+}
+.box4 {
+  background-color: rgb(234, 233, 231);
+}
+.box5 {
+  background-color: #1a222c;
+}
+@media (min-width: 50rem) {
+  .gridContainer {
+    grid-template-columns: repeat(4, auto);
+  }
+  .box2 {
+    grid-column: 3;
+  }
+  .box3 {
+    /* background-color: blue; */
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .box1 {
+    grid-column: span 2;
+  }
+  .box4 {
+    grid-row: span 2;
+  }
+  .box5 {
+    grid-column: 2 / span 2;
+    grid-row: span 2;
+  }
+}
