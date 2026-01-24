@@ -3,15 +3,21 @@ import externalStyles from "./thirdDay.module.css";
 const ThirdDay = () => {
   return (
     <>
-      <nav className={externalStyles.navBar}>
-        <ul className={externalStyles.navlinks__container}>
-          <li className="nav_link">Home</li>
-          <li className="nav_link">About</li>
-          <li className="nav_link">Contact</li>
-          <li className="nav_link">Sign IN</li>
-          <li className={externalStyles.nav_link}>Sign up</li>
-        </ul>
-      </nav>
+      <div className={externalStyles.navOuterContainer}>
+        {" "}
+        <a className={externalStyles.logoContainer}>
+          <img className="" src="/logo.svg" />
+        </a>
+        <nav className={externalStyles.navBar}>
+          <ul className={externalStyles.navlinks__container}>
+            <li className={externalStyles.rightAligin}>Home</li>
+            <li className="nav_link">About</li>
+            <li className="nav_link">Contact</li>
+            <li className={externalStyles.rightAligin}>Sign IN</li>
+            <li className={externalStyles.nav_link}>Sign up</li>
+          </ul>
+        </nav>
+      </div>
       <div className={externalStyles.container}>
         <div className={externalStyles.hero}>
           <div className={externalStyles.heroContainer}>
@@ -31,6 +37,7 @@ const ThirdDay = () => {
                 </button>
               </div>
               <img
+                className={externalStyles.section2}
                 src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
                 alt="Beautiful Wooden Bridge"
               />
