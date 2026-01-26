@@ -4,7 +4,6 @@ const ThirdDay = () => {
   return (
     <>
       <div className={externalStyles.navOuterContainer}>
-        {" "}
         <a className={externalStyles.logoContainer}>
           <img className="" src="/logo.svg" />
         </a>

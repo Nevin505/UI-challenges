@@ -1,0 +1,81 @@
+.fullWidthContainer {
+  background-color: white;
+}
+.beigue {
+  background-color: #f3eed9;
+}
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.mainContent {
+  width: 60%;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainContent p {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.5rem;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.mainContent h1 {
+  font-family: "Playfair", serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #824936;
+  line-height: 0.95 !important;
+}
+
+.qualityInfoContainer {
+  padding-block: 3.5rem;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.qualityInfoContainer h2 {
+  text-align: center;
+  color: #824936;
+  margin-bottom: 2rem;
+}
+
+.desginsLayout {
+  padding-block: 3.5rem;
+
+  background-color: #222c2a;
+}
+.qualityPointsContainer {
+  display: flex;
+  margin: 0 auto;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.desginsLayoutContainer {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.deisgin1Box {
+  flex: 1;
+  text-align: start !important;
+  color: white;
+  line-height: 2;
+}
+.deisgin1Box h2{
+    margin-bottom: 1rem;
+}
+.deisgin1Image {
+  flex: 1;
+  max-width: 100%;
+}
+.colorChange{
+    background-color: #824936;
+}
