@@ -8,6 +8,7 @@ import Day2CssChallenges from "./pages/day2/Day2CssChallenges";
 import ThirdDay from "./pages/day3";
 import FourthDay from "./pages/day4";
 import FifthDay from "./pages/day5";
+import SixthDayFinalChanllengeKp from "./pages/day6";
 function App() {
   return (
     <div className="dark:bg-midnightblue-900 transition-colors duration-700 ripple h-screen">
@@ -19,6 +20,8 @@ function App() {
         <Route path="/day3" element={<ThirdDay />} />
         <Route path="/day4" element={<FourthDay />} />
         <Route path="/day5" element={<FifthDay />} />
+        <Route path="/day6" element={<SixthDayFinalChanllengeKp />} />
+
       </Routes>
       <Outlet />
     </div>

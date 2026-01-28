@@ -1,0 +1,73 @@
+.mainContainer {
+  background-color: white;
+  min-height: 100vh;
+}
+
+.heroContentContainer {
+  background-color: #3b4050;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding-block: 5rem;
+}
+.leftContainer {
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.leftContainer span {
+  color: #a59678;
+}
+
+.rightContainer {
+  margin-top: 1.5rem;
+}
+.rightContainer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.ctaLearnBtn {
+  padding: 1rem 2rem;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  background-color: #a59678;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+.pointStyle {
+  background-color: rgb(237, 236, 236);
+}
+.webApproachPolicySection {
+  padding-block: 6rem;
+}
+.websitePoints + .websitePoints {
+  margin-top: 2rem;
+}
+.websitePoints h2 {
+  color: #a59678;
+  font-size: 30px;
+}
+.websitePoints p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.motivationText {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  color: #a59678;
+  margin-bottom: 1.5rem;
+}
+.imageDesign {
+  margin-bottom: 1.5rem;
+}
+.breakDownSteps{
+    background-color: #3B4050;
+}
