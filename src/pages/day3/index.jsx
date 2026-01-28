@@ -1,13 +1,24 @@
+import { useRef } from "react";
 import externalStyles from "./thirdDay.module.css";
-
+import { IoMenuSharp } from "react-icons/io5";
 const ThirdDay = () => {
+  const navList = useRef();
+  const showNavBar = () => {
+    // navList.current.
+    console.log(navList.current.classList.toggle(externalStyles.visble));
+  };
   return (
     <>
       <div className={externalStyles.navOuterContainer}>
-        <a className={externalStyles.logoContainer}>
-          <img className="" src="/logo.svg" />
-        </a>
-        <nav className={externalStyles.navBar}>
+        <div className={externalStyles.navIconsContainer}>
+          <button onClick={showNavBar} className={externalStyles.hamBurger}>
+            <IoMenuSharp size={28} />
+          </button>
+          <a className={externalStyles.logoContainer}>
+            <img className="" src="/logo.svg" />
+          </a>
+        </div>
+        <nav className={externalStyles.navBar} ref={navList}>
           <ul className={externalStyles.navlinks__container}>
             <li className={externalStyles.rightAligin}>Home</li>
             <li className="nav_link">About</li>
@@ -35,11 +46,12 @@ const ThirdDay = () => {
                   I want to learn
                 </button>
               </div>
-              <img
-                className={externalStyles.section2}
-                src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
-                alt="Beautiful Wooden Bridge"
-              />
+              <div className={externalStyles.section2}>
+                <img
+                  src="https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg"
+                  alt="Beautiful Wooden Bridge"
+                />
+              </div>
             </div>
           </div>
         </div>
