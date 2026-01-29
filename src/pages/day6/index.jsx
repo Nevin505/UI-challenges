@@ -1,8 +1,26 @@
 import externalStyles from "./day6.module.css";
 // Mobile first Apporach
+import { IoMenuSharp } from "react-icons/io5";
 const SixthDayFinalChanllengeKp = () => {
   return (
     <div className={externalStyles.mainContainer}>
+      <header>
+        <nav className={externalStyles.navigationContainer}>
+          <div className={externalStyles.navConatiner}>
+            <IoMenuSharp />
+            <img src="./logo.svg" alt="" srcset="" />
+          </div>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+            <li>Sign in </li>
+            <li>
+              <button className={externalStyles.signUpCta}>Sign Up</button>{" "}
+            </li>
+          </ul>
+        </nav>
+      </header>
       <main className={externalStyles.heroContentContainer}>
         <div className={externalStyles.container}>
           <h1 className={externalStyles.leftContainer}>
@@ -61,36 +79,33 @@ const SixthDayFinalChanllengeKp = () => {
         </div>
       </section>
       <section className={externalStyles.container}>
-        <div>
-          <div>
-            <h2 className={externalStyles.motivationText}>
-              It doesn’t have to be so hard
-            </h2>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Asperiores officiis voluptatum voluptatibus aut officia doloribus
-              fuga, cum veritatis error aspernatur quod laboriosam enim adipisci
-              provident in. Ullam veritatis nobis ipsam. Ad iusto eligendi quia.
-              In, provident eum omnis nostrum nobis unde commodi autem impedit
-              perspiciatis, alias dicta aspernatur nulla ab minima voluptatem,
-              blanditiis nihil. Quod nam non incidunt temporibus velit!
-            </p>
-            <img
-              src="./day6.jpg"
-              alt="Radom Scroll text"
-              className={externalStyles.imageDesign}
-            />
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem earum temporibus sed commodi, laborum recusandae
-              ducimus est porro, eaque impedit aliquam deserunt provident iusto
-              ut hic, quos placeat eligendi officiis! Doloremque hic, rem
-              aliquid expedita eaque quis cum dolor consequuntur esse magni
-              sequi cumque eius perspiciatis necessitatibus magnam omnis error
-              nulla, laborum beatae totam eos distinctio et ipsam praesentium!
-              Molestiae!
-            </p>
-          </div>
+        <div className={externalStyles.motivationTextContainer}>
+          <h2 className={externalStyles.motivationHeading}>
+            It doesn’t have to be so hard
+          </h2>
+          <p className={externalStyles.motivationText}>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores
+            officiis voluptatum voluptatibus aut officia doloribus fuga, cum
+            veritatis error aspernatur quod laboriosam enim adipisci provident
+            in. Ullam veritatis nobis ipsam. Ad iusto eligendi quia. In,
+            provident eum omnis nostrum nobis unde commodi autem impedit
+            perspiciatis, alias dicta aspernatur nulla ab minima voluptatem,
+            blanditiis nihil. Quod nam non incidunt temporibus velit!
+          </p>
+          <img
+            src="./day6.jpg"
+            alt="Radom Scroll text"
+            className={externalStyles.imageDesign}
+          />
+          <p className={externalStyles.motivationText}>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Exercitationem earum temporibus sed commodi, laborum recusandae
+            ducimus est porro, eaque impedit aliquam deserunt provident iusto ut
+            hic, quos placeat eligendi officiis! Doloremque hic, rem aliquid
+            expedita eaque quis cum dolor consequuntur esse magni sequi cumque
+            eius perspiciatis necessitatibus magnam omnis error nulla, laborum
+            beatae totam eos distinctio et ipsam praesentium! Molestiae!
+          </p>
         </div>
         <div>
           <div className={externalStyles.breakDownSteps}>
@@ -119,6 +134,50 @@ const SixthDayFinalChanllengeKp = () => {
               quaerat eligendi minima labore eius eos cumque rem quam excepturi
               praesentium sunt!
             </p>
+          </div>
+        </div>
+      </section>
+      <section className={externalStyles.footerDesgin}>
+        <div className={externalStyles.container}>
+          <h2 className={externalStyles.footerCompanyTag}>
+            just scratching the surface
+          </h2>
+          <div className={externalStyles.footerCompanyInfo}>
+            <div className={externalStyles.companyInfo}>
+              <h3>About our company</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deserunt iusto quam rem impedit reprehenderit aut nisi
+                laboriosam nostrum similique quis velit, repellat alias aliquam
+                odit eos, culpa commodi necessitatibus. Dolores.
+              </p>
+            </div>
+            <div className={externalStyles.companyAround}>
+              <h3>Getting Around</h3>
+              <ul className={externalStyles.footerLinks}>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            <div className={externalStyles.companyAround}>
+              <h3>Other things</h3>
+              <ul className={externalStyles.footerLinks}>
+                <li>Lorem ipsum</li>
+                <li>dolor</li>
+                <li>sit amet</li>
+                <li>consectetur</li>
+              </ul>
+            </div>
+            <div className={externalStyles.companyAround}>
+              <h3>And More</h3>
+              <ul className={externalStyles.footerLinks}>
+                <li>Lorem ipsum</li>
+                <li>dolor</li>
+                <li>sit amet</li>
+                <li>consectetur</li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>

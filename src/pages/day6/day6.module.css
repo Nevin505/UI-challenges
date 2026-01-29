@@ -2,6 +2,30 @@
   background-color: white;
   min-height: 100vh;
 }
+.navigationContainer {
+  background-color: #2e323f;
+  font-size: 18px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 2rem;
+  display: block;
+}
+.navConatiner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.navConatiner img {
+  display: block;
+  margin: 0 auto;
+}
+.signUpCta {
+  margin-top: 1rem;
+  background-color: #a59678;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+}
 
 .heroContentContainer {
   background-color: #3b4050;
@@ -59,15 +83,70 @@
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
-.motivationText {
-  font-size: 30px;
+
+.motivationTextContainer {
+}
+
+.motivationHeading {
+  font-size: 36px;
   font-family: "Oswald", sans-serif;
   color: #a59678;
   margin-bottom: 1.5rem;
 }
+.motivationText {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.motivationText:first-of-type {
+  margin-bottom: 2rem;
+}
 .imageDesign {
   margin-bottom: 1.5rem;
 }
-.breakDownSteps{
-    background-color: #3B4050;
+.breakDownSteps {
+  background-color: #3b4050;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+}
+.breakDownSteps h2 {
+  margin-bottom: 1rem;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+.breakDownSteps p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+}
+.breakDownSteps + .breakDownSteps {
+  margin-top: 1rem;
+}
+.footerDesgin {
+  background-color: #3b4050;
+}
+.footerCompanyTag {
+  font-size: 24px;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+.companyInfo p {
+  color: white;
+  margin-bottom: 1rem;
+}
+.companyAround + .companyAround {
+  margin-top: 2em;
+}
+.footerCompanyInfo h3 {
+  color: #a59678;
+  font-size: 21px;
+  margin-bottom: 1rem;
+}
+.footerLinks {
+  color: white;
+}
+
+.footerLinks li + li {
+  margin-top: 1rem;
 }
