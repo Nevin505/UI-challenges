@@ -7,7 +7,7 @@ const SixthDayFinalChanllengeKp = () => {
       <header>
         <nav className={externalStyles.navigationContainer}>
           <div className={externalStyles.navConatiner}>
-            <IoMenuSharp />
+            <IoMenuSharp className={externalStyles.hamBurgerStyles} />
             <img src="./logo.svg" alt="" srcset="" />
           </div>
           <ul>
@@ -138,7 +138,11 @@ const SixthDayFinalChanllengeKp = () => {
         </div>
       </section>
       <section className={externalStyles.footerDesgin}>
-        <div className={externalStyles.container}>
+        <div
+          className={
+            externalStyles.container + " " + externalStyles.footerContainer
+          }
+        >
           <h2 className={externalStyles.footerCompanyTag}>
             just scratching the surface
           </h2>
